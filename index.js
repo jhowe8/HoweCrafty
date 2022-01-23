@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 const PORT = 8080
+const postgres = require('postgres')
+const sql = postgres({...options})
 
 app.use(express.json())
 
