@@ -10,7 +10,8 @@
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "outDir": "dist",
-        "sourceMap": true
+        "sourceMap": true,
+        "emitDecoratorMetadata": true
     },
     "include": [
         "src/**/*"

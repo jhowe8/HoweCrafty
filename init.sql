@@ -3,7 +3,7 @@ CREATE TABLE COLORS(
     ID SERIAL PRIMARY KEY NOT NULL, 
     COLOR VARCHAR(30) NOT NULL
 );
-INSERT INTO COLORS(COLOR) values
+INSERT INTO ENUM_COLOR(COLOR) values
 ('Orange'),
 ('Yellow'),
 ('Green'),
@@ -34,7 +34,9 @@ CREATE TABLE TIMEOFYEAR(
     ID SERIAL PRIMARY KEY NOT NULL, 
     TIMEOFYEAR VARCHAR(50) NOT NULL
 );
-INSERT INTO TIMEOFYEAR(TIMEOFYEAR) values
+
+SELECT * FROM "enum_time_of_the_year";
+INSERT INTO "enum_time_of_the_year"("timeOfTheYear") values
 ('Spring'),
 ('Summer'),
 ('Fall'),
