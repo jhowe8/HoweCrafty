@@ -1,34 +1,25 @@
 {
-  "name": "mg-provenance-emulation",
+  "name": "prismatry",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon src/index.ts",
-    "dev": "NODE_ENV=development node src",
-    "build": "tsc -d",
-    "watch": "tsc --watch",
-    "watchdev": "./node_modules/nodemon/bin/nodemon.js -w src/ -e ts,json --exec \"yarn build && yarn dev\""
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "class-transformer": "^0.5.1",
-    "class-validator": "^0.13.2",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "pg": "^8.7.1",
-    "typeorm": "^0.2.41",
-    "uuid": "^8.3.2"
+    "@prisma/client": "^3.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.1",
-    "@types/node": "^v16.11.7",
-    "core-js": "^3.19.2",
     "nodemon": "^2.0.15",
-    "ts-node": "^10.4.0",
-    "tslint": "^6.1.2",
-    "typescript": "^4.1.3"
+    "prisma": "^3.8.1"
   }
 }

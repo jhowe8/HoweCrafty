@@ -1,20 +1,20 @@
 .new-wreath {
-    background-color: #a892ee;
+    background-color: #fac473;
     padding: 1rem;
     margin: 2rem auto;
     width: 50rem;
     max-width: 95%;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
 }
 
 .new-wreath button {
     font: inherit;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 1px solid #40005d;
-    background-color: #40005d;
+    border: 1px solid #73deec;
+    background-color: #477ada;
     color: white;
     border-radius: 12px;
     margin-right: 1rem;
@@ -22,8 +22,8 @@
 
 .new-wreath button:hover,
 .new-wreath button:active {
-    border-color: #510674;
-    background-color: #510674;
+    border-color: #6ed3c2;
+    background-color: #1c2450;
 }
 
 .new-wreath button.alternative {
@@ -34,5 +34,5 @@
 
 .new-wreath button.alternative:hover,
 .new-wreath button.alternative:active {
-    background-color: #ddb3f8;
+    background-color: #4c478b;
 }

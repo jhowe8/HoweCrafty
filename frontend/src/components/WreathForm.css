@@ -21,9 +21,8 @@
     max-width: 100%;
 }
 
-.colour_select {
-    min-width: 50%;
-    max-width: 50%;
+.multi_option_select {
+    min-width: 90%;
 }
 
 .new-wreath__actions {
